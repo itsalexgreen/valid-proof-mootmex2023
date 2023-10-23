@@ -13,7 +13,10 @@ i18n
   .init({
     debug: true,
     supportedLngs: ["en", "es"],
-    lng: language ? language : "en",
+    
+    //Aquí se cambia el lenguaje principal
+    lng: language ? language : "es",
+
     fallbackLng: "en",
     nonExplicitSupportedLngs: true,
     backend: {

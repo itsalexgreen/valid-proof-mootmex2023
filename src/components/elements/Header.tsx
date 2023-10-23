@@ -5,7 +5,7 @@ import "primereact/resources/themes/saga-blue/theme.css";
 import { useState } from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import i18n from "../../i18n";
-import logo from "../../images/validProof_logo.jpg";
+import logo from "../../images/moodleMoot_logo.png";
 import "../../styles.css";
 
 type ILanguage = {
@@ -15,8 +15,8 @@ type ILanguage = {
 
 const Header = () => {
   const languagesArray: ILanguage[] = [
-    { label: "English", value: "en" },
     { label: "Español", value: "es" },
+    { label: "English", value: "en" }
   ];
 
   const envLanguage = (window as any).env.LANGUAGE;
@@ -51,7 +51,7 @@ const Header = () => {
       >
         <div className="d-flex justify-content-between py-2 px-3 w-100 container-md">
           <Navbar.Brand href="#">
-            <img alt="Card" src={logo} style={{ width: "140px" }} />
+            <img alt="Card" src={logo} style={{ width: "200px" }} />
           </Navbar.Brand>
           <Nav>
             <NavDropdown title={selectedLanguage.label} id="basic-nav-dropdown">

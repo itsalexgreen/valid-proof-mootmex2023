@@ -1,9 +1,9 @@
 {
-  "title": "Verify document's authenticity",
-  "subtitle": "Unequivocally check on blockchain whether a document has been tampered with",
+  "title": "Verify certificate's authenticity",
+  "subtitle": "Unequivocally check whether a certificate has been tampered with",
   "feature-one": "Get a simple summary of the evidence details",
-  "feature-two": "Verify independently your records on blockchain",
-  "feature-three": "Completely transparent and opensource",
+  "feature-two": "Verify independently your certificate",
+  "feature-three": "Verification carried out through blockchain",
   "test-section": "Test the verification tool",
   "valid-test": "Valid test certificate",
   "tampered-test": "Tampered test certificate",

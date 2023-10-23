@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/elements/Footer";
 import Header from "./components/elements/Header";
@@ -11,7 +11,7 @@ function App() {
     "--primary-bg-color",
     (window as any).env.PRIMARY_COLOR
       ? (window as any).env.PRIMARY_COLOR
-      : "#06d7be"
+      : "#FC9401"
   );
 
   return (
